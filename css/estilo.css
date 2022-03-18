@@ -1,4 +1,12 @@
 body{
     background-color:#87CEEB;
+}
 
+img{
+    width: 35%;  
+}
+
+figure{
+
+    text-align: justify;
 }
