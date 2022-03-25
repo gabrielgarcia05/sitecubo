@@ -1,12 +1,28 @@
 body{
-    background-color:#87CEEB;
+    background-color:#245ca5be;
 }
 
-img{
-    width: 35%;  
+.img_topo{
+    width: 100%;
 }
 
+
+.img_corpo{
+    width: 45%;
+}
 figure{
+    text-align:center;
+}
 
-    text-align: justify;
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: 	#000000;
+}
+p{
+    font-size: 1.3rem;
 }
