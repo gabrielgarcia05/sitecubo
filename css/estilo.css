@@ -1,5 +1,6 @@
 body{
-    background-color:#245ca5be;
+    background-color:#F5F5F5;
+   
 }
 
 .img_topo{
@@ -11,7 +12,7 @@ body{
     width: 45%;
 }
 figure{
-    text-align:justify;
+    text-align:center;
 }
 
 .container{
