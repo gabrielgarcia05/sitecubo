@@ -30,3 +30,14 @@ p{
     text-align: justify;
     text-indent: 40px;
 }
+
+.divtipos{
+    width: 100px;
+    height: 50px;
+    background-color: darkgray;
+    margin: auto;
+}
+.botaotipos{
+    padding-top: 15px;
+    text-align: center;
+}
