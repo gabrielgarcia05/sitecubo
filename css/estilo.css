@@ -28,7 +28,7 @@ p{
     font-size: 1.3rem;
     color: #000000;
     text-align: center;
-    text-indent: 100px;
+    /* text-indent: 100px; */
 }
 
 .botao{
@@ -48,4 +48,8 @@ p{
     font-size: 1rem;
     color: #000000;
     text-align: right;
+}
+
+html{
+    scroll-behavior:smooth;
 }
