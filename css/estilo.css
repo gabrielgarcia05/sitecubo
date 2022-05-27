@@ -1,6 +1,6 @@
 body{
     background-color:#F5F5F5;
-   
+    font-family: Arial;
 }
 
 .img_topo{
@@ -23,6 +23,7 @@ figure{
 h1{
     text-align: center;
     color: 	#000000;
+    margin-bottom: 1%;
 }
 p{
     font-size: 1.3rem;
@@ -32,15 +33,14 @@ p{
 }
 
 .botao{
-    padding-top: 15px;
-    text-align: center;
+    padding-top: 15px;;
     font-size: 2rem;
 }
 
 .botao_tipos{
     width: 100px;
     height: 50px;
-    background-color: darkgray;
+    background-color: rgb(169, 169, 169);
     margin: auto;
 }
 
@@ -65,4 +65,41 @@ html{
     padding-bottom: 1%;
 }
 
-.itens_menu{}
+
+.itens_menu, footer{
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.2);
+}
+
+.itens_menu a{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.itens_menu a{
+    a:hover
+} 
+.itens_menu a{
+    a:active
+} 
+.itens_menu a{
+    background-color: blue;
+} 
+
+section {
+    margin-top: 1%;
+}
+
+
+  
+
+
+
+
