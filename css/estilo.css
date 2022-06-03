@@ -24,6 +24,7 @@ h1{
     text-align: center;
     color: 	#000000;
     margin-bottom: 1%;
+    font-size: 25px;
 }
 p{
     font-size: 1.3rem;
@@ -97,9 +98,11 @@ section {
     margin-top: 1%;
 }
 
-
-  
-
-
+.direita {
+    float: right;
+    width: 45%;
+    margin-left: 15%;
+    
+}
 
 
