@@ -130,3 +130,21 @@ section {
     margin-bottom: 3%;    
 }
 
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+th{
+    font-size: 20px;
+    font-weight: bold
+}
+  
+td,th{
+    border: 5px solid #dddddd;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align : center;
+}
+
