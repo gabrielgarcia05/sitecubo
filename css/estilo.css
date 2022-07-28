@@ -29,15 +29,17 @@ figure{
 
 h1{
     text-align: center;
-    color: 	#000000;
+    color: 	#2F4F4F;
     margin-bottom: 1%;
+    margin-top: 2%;
     font-size: 25px;
+    font-weight: bold
 }
 p{
     font-size: 1.3rem;
     color: #000000;
     text-align: center;
-    /* text-indent: 100px; */
+
 }
 
 .botao{
@@ -79,32 +81,47 @@ html{
 
 
 .itens_menu, footer{
-    line-height: 1.5;
+    line-height: 1.0;
     text-align: center;
     background-color: rgba(169, 169, 169, 0.2);
 }
 
-
-.itens_menu a{
-    background-color: #3936f4;
-    color: rgb(255, 255, 255);
-    padding: 14px 25px;
+.itens_menu{
+    line-height: 1.5;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
+    font-family: Arial;
+  }
+  
+  .itens_menu a{
+    font-size: 1.2em;
+  }
+  
+  .itens_menu a:link, .itens_menu a:visited{ 
+      color: #0000CD;
+      text-decoration: none;
+    
+    }  
+    /* mouse over link */
+  .itens_menu a:hover {
+      color: #0000CD;
+      padding: 0.8%;    
+      background-color: rgba(128, 128, 128, 0.3); 
+      text-decoration: none;
+      border-radius: 15%;
+      font-weight: bold
+      
+  
+    }
+    
+    /* selected link */
+  .itens_menu a:active {
+      color: #FFF;
+      text-decoration: none;
+    }
+  
+  
+  
 
-.itens_menu a{
-    a:hover
-} 
-.itens_menu a{
-    a:active
-} 
-.itens_menu a{
-    background-color: blue;
-} 
 
 section {
     margin-top: 1%;
