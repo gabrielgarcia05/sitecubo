@@ -1,0 +1,267 @@
+body{
+    background-color:#F5F5F5;
+    font-family: Roboto-Bold;
+}
+
+.header{
+    padding: 1.5%;
+    font-family: Roboto-Bold;
+    background-color:#F5F5F5;
+    position: relative;
+}
+
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.banner {
+    margin-top: 25%;
+}
+
+@font-face {
+    font-family: Roboto-Bold ;
+    
+    src: url('../fontes/Roboto-Bold.ttf')
+  }
+.img_topo{
+    width: 100%;
+}
+
+
+.img_corpo{
+    width: 45%;
+    margin: 2%;
+    margin-bottom: 2%;
+}
+figure{
+    text-align:center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container2{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: 	#2F4F4F;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: bold
+    
+
+}
+p{
+    font-size: 1.3rem;
+    color: #363636;
+    text-align: center;
+
+}
+
+.botao{
+    padding-top: 15px;;
+    font-size: 2rem;
+}
+
+.botao_tipos{
+    width: 100px;
+    height: 40px;
+    padding-top: 15px;
+    background-color: rgb(169, 169, 169);
+    margin: auto;
+    margin-top: 30%;
+}
+
+.desenvolvedor{
+    font-size: 1.3rem;
+    color: #000000;
+    text-align: left;
+
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+.menu{
+    background-color: aliceblue;
+
+}
+
+.logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+.itens_menu, footer{
+    line-height: 1.0;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.2);
+}
+
+.itens_menu{
+    line-height: 1.5;
+    text-align: center;
+    font-family: Arial;
+  }
+  
+  .itens_menu a{
+    font-size: 1.2em;
+  }
+  
+  .itens_menu a:link, .itens_menu a:visited{ 
+      color: #0000CD;
+      text-decoration: none;
+    
+    }  
+    /* mouse over link */
+  .itens_menu a:hover {
+      color: #0000CD;
+      padding: 0.8%;    
+      background-color: rgba(128, 128, 128, 0.3); 
+      text-decoration: none;
+      border-radius: 15%;
+      font-weight: bold
+      
+  
+    }
+    
+    /* selected link */
+  .itens_menu a:active {
+      color: #FFF;
+      text-decoration: none;
+    }
+  
+  
+  
+
+
+section {
+    margin-top: 1%;
+}
+
+.direita {
+    float: right;
+    width: 45%;
+    margin-left: 15%;
+ 
+    
+}
+
+.a{
+    margin-bottom: 3%;
+}
+
+.b{
+    margin-bottom: 3%;    
+}
+
+.c{
+    margin-bottom: 3%;    
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+th{
+    font-size: 20px;
+    font-weight: bold
+}
+  
+td,th{
+    border: 5px solid #dddddd;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align : center;
+}
+
+
+    td:first-child{
+width: 30%;
+      }
+      
+td:first-child + td{
+width: 30%;
+}
+
+.borda_form{
+    background-color:#dddddd ;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 1%;
+    box-sizing: border-box;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input[type=text], select, textarea, input[type=tel], input[type=email] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #0000CD;
+    border-radius: 15px;
+    resize: vertical;
+  }
+ 
+
+.col-25{
+  width: 25%;
+  float: left;
+  margin-top: 6px;
+
+}
+
+.col-75{
+width: 75%;
+float: left;
+margin-top: 6px;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=submit] {
+    background-color: #0000CD;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+input[type=submit]:hover {
+    background-color: rgb(177, 177, 177);
+    font-weight: bolder;  
+}
+
+.botaoform{
+    margin-top: 3%;
+  }
+
+  @media screen and (max-width:450px){
+
+.col-25, .col-75, input[type=submit]{ 
+    width: 100%;
+    margin-top: 0;
+     
+}
